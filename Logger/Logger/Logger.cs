@@ -38,7 +38,7 @@ namespace MyUtility
         public void Write(string writeContents)
         {
             StackTrace st = new StackTrace(1, true);
-            string dateTime = DateTime.Now.ToString("yyyy/MM/dd hh:mm:ss.fff");
+            string dateTime = DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss.fff");
             string fileName = Path.GetFileName(st.GetFrame(0).GetFileName()).PadRight(20).Substring(0, 20);
             string lineNumber = st.GetFrame(0).GetFileLineNumber().ToString();
             //string methodName = st.GetFrame(0).GetMethod().ToString();
