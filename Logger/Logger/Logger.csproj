@@ -7,7 +7,7 @@
     <ProjectGuid>{D1E34BB6-3BA6-4676-82EA-8DC27862BA77}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Logger</RootNamespace>
+    <RootNamespace>MyUtility</RootNamespace>
     <AssemblyName>Logger</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
