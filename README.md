@@ -4,14 +4,14 @@ C#で作った自作ロガーです。
 
 プロジェクトに組み込んで、簡単にログを出力できます。
 
-### 使い方
+## 使い方
 1. まずは`git clone https://github.com/TomoProg/Logger_CS`
 
 2. ビルドしてlogger.dllを作成
 
 3. Loggerを使用するプロジェクトの参照にlogger.dllを追加
 
-#### サンプルプログラム
+### サンプルプログラム
 ```c#
 using System.Text;
 
@@ -33,7 +33,7 @@ namespace ConsoleApp1
 }
 ```
 
-#### 実行結果
+### 実行結果
 ```
 [test.txt]
 2017/02/27 22:41:11.248 Program.cs Line:11 test文字列
